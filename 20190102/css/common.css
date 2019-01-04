@@ -1,0 +1,53 @@
+@charset "utf-8";
+*{box-sizing: border-box;}
+/* img{display: block;} */
+#main_header{width: 100%;}
+#main_gnb_wrap{width: 100%;height: 30px;border-bottom: 1px solid #ddd;}
+#main_gnb{width: 980px;margin: 0 auto;}
+
+/* main_gnb */
+#main_gnb:after{content:"";clear: both;display: block;}
+#gnb{float: right;padding-top: 5px;}
+#gnb > ul:after{content:"";display: block;clear: both;}
+#gnb > ul > li{float: left;border-left: 1px solid #000;}
+#gnb > ul > li:first-child{border-left: none;}
+#gnb > ul > li > a{display: block;padding: 0 10px;line-height: 20px;}
+
+h1{text-align: center;}
+
+#main_lnb_wrap{background-color: #1c5da3;height: 45px;}
+#main_lnb{width: 980px;margin: 0 auto;height: 45px;}
+#main_lnb > ul:after{content:"";display: block;clear: both;}
+#main_lnb > ul > li{float: left;width: 16.66%;border-right: 1px solid #336eac;}
+#main_lnb > ul > li:first-child{border-left: 1px solid #336eac;}
+#main_lnb > ul > li > a{display: block;line-height: 45px;text-align: center;color: white;}
+#main_lnb > ul > li > a:hover{background-color: skyblue;color: #1c5da3;}
+
+#visual_wrap{height: 400px;background: #274373 url(../images/main/visual_bg01.png) no-repeat center;}
+#visual_wrap .visual{width: 980px;height: 400px;margin: 0 auto;position: relative;overflow: hidden;}
+#visual_wrap .img01{position: absolute;right: 0;bottom: 0;}
+#visual_wrap .img02{position: absolute;left: 0;top: 70px;}
+
+#main_banner{background-color: #eee;height: 200px;}
+#banner_wrap{width: 980px;margin: 0 auto;color: white;text-align: center;}
+#banner_wrap > ul{content:"";clear: both;display: block;}
+#banner_wrap > ul > li{float: left;width: 20%;height: 200px;cursor:pointer;}
+
+#banner_wrap > ul > li:nth-child(1){background-color: #7c99b9;}
+#banner_wrap > ul > li:nth-child(2){background-color: #4f74a1;}
+#banner_wrap > ul > li:nth-child(3){background-color: #4b8ce0;}
+#banner_wrap > ul > li:nth-child(4){background-color: #3db5f3;}
+#banner_wrap > ul > li:nth-child(5){background-color: #95c8ff;}
+#banner_wrap > ul > li:hover{background-color: #274373;}
+
+.card{width: 100%;padding-top: 15px;}
+.card-body{padding: 15px;}
+.card-title{margin-bottom: 5px;}
+.card-text{font-size: 14px;}
+
+#main_article{width: 980px;margin: 0 auto;}
+#main_article > ul:after{content:"";display: block;clear: both;}
+#main_article > ul > li{float: left;width: 310px;margin-right: 25px;}
+#main_article > ul > li:last-child{float: right;margin-right: 0;}
+#main_article .card-body{border: 1px solid #ddd;border-top: none;}
+#main_article .card-body img{display: block;}
